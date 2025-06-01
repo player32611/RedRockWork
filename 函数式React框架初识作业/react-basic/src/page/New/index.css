@@ -1,0 +1,48 @@
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+
+.textarea {
+    height: 100%;
+    width: 250px;
+    resize: none;
+}
+
+.submit {
+    justify-items: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    border-radius: 15px;
+    background-color: skyblue;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+}
+
+.return {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 25px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
